@@ -1,0 +1,230 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-width: 375pt;
+    min-height: fit-content;
+}
+
+header {
+    width: 100%;
+    height: fit-content;
+    background-color: #fff;
+    display: block;
+}
+
+.cabecalho {
+    width: 100%;
+    height: 60pt;
+    display:flex;
+    background-color: #180e0c;
+    border: 1pt solid #707070;
+    justify-content:space-between;
+    font-size: 20pt;
+    color: white;        
+}
+
+.cabecalho_title {
+    margin: 17pt 36pt;
+}
+
+.cabecalho i {
+    align-content: center;
+    width: 27pt;
+    height: auto;
+    margin-right: 36px;
+}
+
+.cabecalho_img {
+    object-fit: cover;
+    width: 100%;
+    height: 134pt;
+
+}
+/*Cards do cabeçalho*/
+.cabecalho_container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30pt 36pt 10pt 36pt;
+
+}
+
+.cabecalho_card {
+    max-width: 146pt;
+    min-height: 208pt;
+}
+
+.cabecalho_card_content {
+    display: block;
+    min-width: 146pt;
+    min-height: 208pt;
+    margin-bottom: 20pt;
+}
+
+.cabecalho_card_img {
+    width: 92%;
+    height: 128pt;
+    object-fit: cover;
+}
+
+.cabecalho_card_title {
+    font-size: 13pt;
+    font-weight: 700;
+    display: block;
+    margin: 12pt 0 6pt 0;
+}
+
+.cabecalho_card_info {
+    width: 92%;
+    font-size: 10pt;
+    text-align: justify;
+    line-height: 14pt;
+}
+
+/*Aqui termina o cabeçalho*/
+
+
+/*Seção arvores e plantas*/
+.arvores_article a,
+.plantas_article a,
+.outras a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.arvores_plantas {
+    background-color: #37201A;
+    padding: 32pt 36pt;
+}
+
+.arvores_content,
+.plantas_content {
+    display: flex;
+    width: 305pt;
+    margin: 13pt 0;
+}
+
+.outras_content {
+    width: 305pt;
+}
+
+.arvores_info,
+.plantas_info,
+.outras_info {
+    font-size: 13pt;
+    color: #7A503E;
+    line-height: 17pt;
+}
+
+.arvores_info,
+.plantas_info {
+    margin-left: 10pt;
+}
+
+.arvores_info,
+.plantas_info,
+.outras_info {
+    text-align: justify;
+}
+
+.arvores_img,
+.plantas_img {
+    width: 72pt;
+    height: 72pt;
+    object-fit: cover;
+
+}
+
+.outras_img {
+    width: 302pt;
+    height: 120pt;
+    object-fit: cover;
+    padding: 13pt 0 20pt 0;
+}
+
+.arvores_container,
+.plantas_container,
+.outras_content {
+    display: block;
+}
+
+.arvores_container,
+.plantas_container {
+    margin-bottom: 10pt;
+}
+
+.arvores_container h3,
+.plantas_container h3,
+.outras h3 {
+    font-size: 21pt;
+    line-height: 28pt;
+    color: #C27159;
+    font-weight: bold;
+}
+
+.arvores_plantas {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+}
+
+/*Aqui termina a Seção arvores e plantas*/
+
+/*Seção referencias e artigos relacionados*/
+.referencias_container {
+    min-width: 375pt;
+    height: fit-content;
+    background-color: #251611;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.referencias_content,
+.artigos_content {
+    display: block;
+    width: 375pt;
+    max-width: fit-content;
+    padding: 0 36pt;
+}
+
+.referencias_content h3,
+.artigos_content h3 {
+    font-size: 13pt;
+    font-weight: bolder;
+    line-height: 17pt;
+    color: #C27159;
+    margin: 30pt 0 10pt 0;
+}
+
+.referencias_infoppal,
+.referencias_infogeral,
+.artigos_content a,
+.licenca {
+    font-size: 8pt;
+    color: #C27159;
+    line-height: 13pt;
+}
+
+.referencias_infoppal {
+    font-weight: 500;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+footer {
+    min-width: 375pt;
+    height: 41pt;
+    background-color: #251611;
+    text-align: center;
+    align-content: center;
+}
